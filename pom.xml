@@ -24,6 +24,11 @@
     </properties>
     <dependencies><!-- Source: https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
         <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.0.9</version>
+        </dependency>
+        <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>${restAssuedVersion}</version>
